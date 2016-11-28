@@ -1,0 +1,48 @@
+ 3118  node ' -v
+ 3119  node hello-world.js
+ 3121  node variables.js
+ 3122  node strings.js
+ 3123  node numbers.js
+ 3124  node function.js
+ 3125  node objects.js
+ 3126  node bankAccount.js
+ 3127  node arrays.js
+ 3128  node bank-account-2.js
+ 3139  node loops.js
+ 3140  node closure.js
+ 3141  node bank-account-3.js
+ 3169  node app.js
+ 3253  node example-args.js hello
+ 3254  node example-args.js hello --name Sudhir
+ 3256  history | grep node > commands.txt
+ 3257  history | grep 'node ' > commands.txt
+ 3258  node ' -v
+ 3259  node example-args.js hello --name Sudhir --lastname Mohanraj
+ 3260  node example-args.js hello --lastname Mohanraj
+ 3261  node example-args.js hello 
+ 3265  node example-args.js hello
+ 3266  node example-args.js hello --name Devon
+ 3267  node example-args.js --help
+ 3268  node example-args.js hello -help
+ 3269  node example-args.js hello -n Devon -l Stansbury
+ 3270  node example-args.js hello --n Devon --l Stansbury
+ 3271  node example-args.js hello -n Devon -l Stansbury
+ 3272  node app.js --help
+ 3273  node app.js
+ 3274  node app.js create 
+ 3275  node app.js create  -n sudhir -u spursy87 -p abcd12345
+ 3276  node app.js get -n sudhir
+ 3277  node app.js get -n gmail
+ 3278  node app.js create  -n sudhir -u spursy87 -p abcd12345
+ 3279  node app.js get spursu87
+ 3280  node app.js get -u spursy87
+ 3281  node app.js get -n spursy87
+ 3282  node app.js get -u spursy87
+ 3283  node app.js get -n spursy87
+ 3284  node app.js get -u spursy87
+ 3285  node app.js create -n gmail -u hello -p abcd12345
+ 3286  node app.js get -u hello
+ 3287  node app.js get -n gmail
+ 3289  history | grep 'node '
+ 3290  history | grep 'node ' > commands.txt
+ 3291  history | grep 'node ' | uniq > commands.txt
